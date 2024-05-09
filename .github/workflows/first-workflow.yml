@@ -31,7 +31,7 @@ jobs:
         uses: mscoutermarsh/cowsays-action@v1
         with:
             # What does the cow say?
-            text: hello everyone
+            text: 'hello everyone'
             # Color of your cow
             color: 'red'
           
