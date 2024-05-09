@@ -4,7 +4,7 @@ param environment string = 'dev'
 @description('Location of services')
 param location string = resourceGroup().location
 
-var webAppName = '${uniqueString(resourceGroup().id)}-${environment}'
+var webAppName = '${uniqueString(resourceGroup().id)}-${environment}-posada'
 var appServicePlanName = '${uniqueString(resourceGroup().id)}-wth-asp-posada'
 var appInsightsName = '${uniqueString(resourceGroup().id)}-wth-ai-posada'
 var sku = 'S1'
