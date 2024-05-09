@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "hf6r+PGX0dTvnhr7jEDTBXabYQsvl7XOtiA+QZyMOKY=",
+  "Source": "RazorPagesTestSample",
+  "BasePath": "_content/RazorPagesTestSample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RazorPagesTestSample/wwwroot",
+      "Source": "RazorPagesTestSample",
+      "ContentRoot": "/workspaces/DevOpsApp/Application/src/RazorPagesTestSample/wwwroot/",
+      "BasePath": "_content/RazorPagesTestSample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/workspaces/DevOpsApp/Application/src/RazorPagesTestSample/wwwroot/favicon.ico",
+      "SourceId": "RazorPagesTestSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/DevOpsApp/Application/src/RazorPagesTestSample/wwwroot/",
+      "BasePath": "_content/RazorPagesTestSample",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.ico"
+    }
+  ]
+}
