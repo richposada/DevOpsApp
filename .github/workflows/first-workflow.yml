@@ -33,7 +33,7 @@ jobs:
             # What does the cow say?
             text: hello everyone
             # Color of your cow
-            color: red
+            color: 'red'
           
       
      
