@@ -66,7 +66,7 @@ jobs:
     needs: docker-build-and-push
     environment:
       name: dev
-      url: https://4wuc66zjaamv4-dev-smith.azurewebsites.net/
+      url: https://devopsapp01.azurewebsites.net/
     
     steps:
       - name: 'Login via Azure CLI'
@@ -76,5 +76,5 @@ jobs:
 
       - uses: Azure/webapps-deploy@v3.0.1
         with:
-          app-name: '4wuc66zjaamv4-dev-smith'
+          app-name: 'devopsapp01'
           images: ${{secrets.ACR_NAME}}/wth/razorcore:${{github.run_number}}
