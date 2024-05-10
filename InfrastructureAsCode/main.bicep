@@ -1,4 +1,4 @@
-var lastName = 'posada'
+var lastName = 'smith'
 
 @description('Environment of the web app')
 param environment string = 'dev'
