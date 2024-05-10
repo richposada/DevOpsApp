@@ -63,7 +63,7 @@ jobs:
     needs: docker-build-and-push
     environment:
       name: dev
-      url: https://devopsreg-dev.azurewebsites.net/
+      url: https://4wuc66zjaamv4-dev-smith.azurewebsites.net/
     
     steps:
       - name: 'Login via Azure CLI'
